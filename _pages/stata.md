@@ -17,4 +17,6 @@ author_profile: true
   {% endfor %}
 {% endfor %} -->
 
-{% for post in site.pages %} {% include archive-single.html %} {% endfor %}
+{% for post in site.pages %} 
+    {% include archive-single.html %} 
+{% endfor %}
