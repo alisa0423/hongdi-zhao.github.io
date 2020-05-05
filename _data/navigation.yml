@@ -4,7 +4,7 @@ main:
     url: /about/
   - title: "Stata"
     url: /stata/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+  - title: "Machine Learning"
+    url: /machine-learning/
   # - title: "Sitemap"
   #   url: /sitemap/
