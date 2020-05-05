@@ -97,11 +97,14 @@ author:
   avatar           : "/images/Boston.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Project Portfolio"
   location         : "New Haven, CT"
-  email            : alisa.hdzhao@gmail.com
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:alisa.hdzhao@gmail.com"
+    - label: "LinkedIn"
+      icone: "fab fa-linkedin"
+      url: https://www.linkedin.com/in/hongdi-zhao-alisa/
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -110,7 +113,7 @@ author:
       url: "https://twitter.com/ZhaoAlisa"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/alisa.hdzhao"
+      # url: "https://facebook.com/alisa.hdzhao"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/hongdi-zhao"
