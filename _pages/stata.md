@@ -1,10 +1,18 @@
 ---
-layout: posts
+layout: archive
 permalink: /stata/
 title: Stata
 author_profile: true
-excerpt: "A unique line of text to describe this post that will display in an archive listing and meta description with SEO benefits."
 ---
 
 
-{% for post in site.pages %} {% include archive-single.html %} {% endfor %}
+{% include base_path %}
+{% include group-by-array collection=site.posts field="tags" %}
+
+{% for tag in group_names %}
+  {% assign posts = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for post in posts %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}
