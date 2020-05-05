@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: posts
 permalink: /stata/
 title: Stata
 author_profile: true
