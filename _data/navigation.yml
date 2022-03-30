@@ -2,9 +2,9 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Stata"
+  - title: "CV"
     url: /stata/
-  - title: "Machine Learning"
+  - title: "Research"
     url: /machine-learning/
   # - title: "Sitemap"
   #   url: /sitemap/
